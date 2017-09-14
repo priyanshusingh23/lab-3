@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main( )  {
+
+int a, b, larger;
+
+cout << "enter two number";
+cin>> a >> b;
+
+if (a>b)
+{ larger = a; }
+
+if (b>a)
+{ larger = b; }
+
+cout << "larger of two number is" << larger;
+	return 0;
+}
