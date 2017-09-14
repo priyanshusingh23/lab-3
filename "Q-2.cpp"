@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main( )  {
+
+int a, b, c, larger;
+
+cout << "enter three number";
+cin>> a >> b >> c;
+
+if (a>b and a>c)
+{ larger = a; }
+
+if (b>a and b>c)
+{ larger = b; }
+
+if (c>a and c>b)
+{ larger = c;}
+
+cout << "larger of three number is" << larger;
+	return 0;
+}
